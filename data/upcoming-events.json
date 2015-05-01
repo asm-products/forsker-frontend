@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Comouter Vision Conference",
+    "host": "FAU",
+    "dates":{"from":"", "to":""},
+    "keywords": ["computer graphics"],
+    "url": "#"
+  },
+  {
+    "name": "Comouter Graphics Conference",
+    "host": "EPFL",
+    "dates":{"from":"", "to":""},
+    "keywords": ["EPFL", "Computational Mechanics"],
+    "url": "#"
+  },
+  {
+    "name": "Comouter Architecture Conference",
+    "host": "MIT",
+    "dates":{"from":"", "to":""},
+    "keywords": ["computer vision", "computer graphics"],
+    "url": "#"
+  },
+  {
+    "name": "Comouter Vision Conference",
+    "host": "FAU",
+    "dates":{"from":"", "to":""},
+    "keywords": ["FAU", "Vision"],
+    "url": "#"
+  },
+  {
+    "name": "Physics Conference",
+    "host": "ETH",
+    "dates":{"from":"", "to":""},
+    "keywords": ["Physics", "ETH"],
+    "url": "#"
+  }
+]

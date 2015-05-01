@@ -1,0 +1,32 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="forsker-right-toolbar" attributes="pageTitle ">
+  <template>
+    <style>
+
+      #core-toolbar-title{
+        background-color:#526E9C;
+        color: #ffffff;
+      }
+      core-toolbar.tall{
+        height:285px;
+      }
+      div.title{
+        font-size: 28px;
+      }
+    </style>
+
+    <!--  class="animate tall" -->
+    <core-toolbar id="core-toolbar-title">
+      <paper-icon-button icon="menu"  core-drawer-toggle></paper-icon-button>
+      <div class="middle indent title" style="">{{pageTitle}}</div>
+      <span flex></span>
+      <paper-icon-button icon="more-vert"></baber-icon-button>
+    </core-toolbar>
+
+
+  </template>
+  <script>
+  Polymer({});
+  </script>
+</polymer-element>

@@ -1,0 +1,41 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="forsker-core-menu">
+  <template>
+    <style>
+      core-item{
+        border-top: 1px solid #CCC;
+        color: #555;
+        padding: 7px 0px 7px 12px;
+        font-weight: 500;
+      }
+      core-item:last-of-type{
+        border-bottom: 1px solid #CCC;
+      }
+      core-menu{
+        margin: 10px 0px 0px 0px;
+      }
+    </style>
+
+
+    <core-menu>
+      <core-item icon="social:group" label="Groups" horizontal center layout>
+        <a href="../groups.html"></a>
+      </core-item>
+      <core-item icon="social:school" label="Scientists" horizontal center layout>
+        <a href="../scientists.html"></a>
+      </core-item>
+      <core-item icon="work"         label="Open Positions" horizontal center layout>
+        <a href="../open-positions.html"></a>
+      </core-item>
+      <core-item icon="event"         label="Upcoming Events" horizontal center layout>
+        <a href="../upcoming-events.html"></a>
+      </core-item>
+    </core-menu>
+
+  </template>
+  <script >
+    Polymer({});
+
+  </script>
+</polymer-element>

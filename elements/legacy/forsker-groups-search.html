@@ -1,0 +1,34 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="forsker-groups-search">
+  <template>
+    <style>		
+
+    </style>
+	
+	<div layout horizontal>
+	    <paper-input-decorator label="Search keyword" flex>
+		    <input is="core-input">
+		</paper-input-decorator>
+		<paper-dropdown-menu label="University" style="margin: 0.7em 0;max-width:40%">
+		    <paper-dropdown class="dropdown">
+		        <core-menu class="menu" layout vertical>
+		            <paper-item>All</paper-item>
+		            <paper-item>MIT</paper-item>
+		            <paper-item>Stanford</paper-item>
+		            <paper-item>Caltech</paper-item>
+		        </core-menu>
+		    </paper-dropdown>
+		</paper-dropdown-menu>
+        <paper-icon-button icon="search" style="margin: 20px 4px 8px;padding: 0px 4px;"></baber-icon-button>
+	</div>
+
+  </template>
+  <script>
+  Polymer({
+    toggle: function() {
+      this.$.collapse.toggle();
+    }
+  });
+  </script>
+</polymer-element>

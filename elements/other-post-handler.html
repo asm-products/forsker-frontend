@@ -1,0 +1,28 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+
+<polymer-element name="other-post-handler" attributes="post pagetype">
+<template>
+  <style>
+  </style>
+
+	<template if="{{pagetype === 'group'}}">
+		<group-handler post="{{post}}"></group-handler>
+	</template>
+	<template if="{{pagetype === 'scientist'}}">
+		<scientist-handler post="{{post}}"></scientist-handler>
+	</template>
+	<template if="{{pagetype === 'open-position'}}">
+		<open-position-handler post="{{post}}"></open-position-handler>
+	</template>
+	<template if="{{pagetype === 'upcoming-event'}}">
+		<upcoming-event-handler post="{{post}}"></upcoming-event-handler>
+	</template>
+
+
+    </template>
+    <script>
+    Polymer({
+    });
+    </script>
+  </polymer-element>

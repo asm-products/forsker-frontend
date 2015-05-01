@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Pramod S.",
+    "position":"PhD Student",
+    "group":"Material Science",
+    "university": "Stanford",
+    "keywords": ["computer graphics"],
+    "url": "#"
+  },
+  {
+    "name": "Joe Y.",
+    "position":"Group Leader",
+    "group":"Computer Graphics",
+    "university": "MIT",
+    "keywords": ["ETH", "Computational Mechanics"],
+    "url": "#"
+  },
+  {
+    "name": "Sam D.",
+    "position":"Assosiate Professpr",
+    "group":"Computer Vision",
+    "university": "EPFL",
+    "keywords": ["computer vision", "computer graphics"],
+    "url": "#"
+  },
+  {
+    "name": "Arnold V.",
+    "position":"Research Assistant",
+    "group":"Pattern Recognition",
+    "university": "ETH",
+    "keywords": ["Physics", "PhD"],
+    "url": "#"
+  }
+]

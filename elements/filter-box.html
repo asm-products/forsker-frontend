@@ -1,0 +1,32 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="filter-box" attributes="page">
+<template>
+  <style>
+paper-toggle-button::shadow [checked] .toggle {
+  background-color: #526E9C;
+}
+span{
+	color: #526E9C;
+}
+
+  </style>
+	<paper-shadow z="2">
+		<core-label layout horizontal style="padding: 14px;background-color: #CCC;"> 
+		  <span flex>Filters</span> 
+		  <paper-toggle-button on-core-change="{{toggleCollapse}}" for></paper-toggle-button> 
+		</core-label>
+		<core-collapse id="collapse">
+		  Content goes here...
+		</core-collapse>
+	</paper-shadow >
+
+    </template>
+    <script>
+    Polymer({
+    	toggleCollapse: function(e, detail, sender) {
+  				this.$.collapse.toggle();
+		},
+    });
+    </script>
+  </polymer-element>

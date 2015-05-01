@@ -1,0 +1,79 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+
+<polymer-element name="menu-post-handler" attributes="post pagetype">
+<template>
+  <style>
+  .card-wrapper {
+    border: 2px solid #CCC;
+    background-color: #FFF;
+    padding: 0px;
+    margin: 2px 0px 2px;
+  }
+  .card-wrapper:hover {
+    background-color: #eee;
+  }
+  .entry-text-wrapper {
+  }
+  .entry-wrapper.group-title {
+    font-weight: 600;
+    font-size: 15px;
+    color: #526E9C;
+    padding-right: 8px;
+  }
+  .entry-wrapper {
+    padding: 1px;
+    margin: 0px;
+  }
+  .entry-wrapper.group-uni {
+    color: #777;
+  } 
+  .paper-icon-button{
+    color: #333;
+  }
+  </style>
+
+  <paper-shadow z="2" horizontal="" layout="" class="card-wrapper">
+    <core-label vertical="" layout="" flex="" for=".foo">
+      <div class="entry-text-wrapper" >
+        <div class="" horizontal="" layout="">
+          <div class="entry-wrapper group-title">
+            {{post.name}}
+          </div>
+
+          <div class="entry-wrapper group-uni" flex="">
+            <template if="{{pagetype === 'groups'}}">
+              {{post.university}}
+            </template>
+            <template if="{{pagetype === 'scientists'}}">
+              {{post.postion}} at {{post.group}}, {{post.university}}
+            </template>
+            <template if="{{pagetype === 'open-positions'}}">
+              at {{post.group}}, {{post.university}}
+            </template>
+            <template if="{{pagetype === 'upcoming-events'}}">
+              at {{post.host}}
+            </template>
+          </div>
+        </div>
+
+        <div class="" horizontal="" layout="">
+          <div class="entry-wrapper group-research" flex>
+            Keywords: {{post.keywords}}
+          </div>
+        </div>
+      </div>
+    </core-label>
+
+    <a href="{{post.url}}"  class="paper-icon-button" vertical center-justified layout>
+      <paper-icon-button icon="arrow-forward" class="foo"></paper-icon-button>
+    </a>
+  </paper-shadow >   
+
+
+    </template>
+    <script>
+    Polymer({
+    });
+    </script>
+  </polymer-element>

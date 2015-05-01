@@ -1,0 +1,1457 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"if",
+				"ife	if … else … end"
+			],
+			[
+				"g",
+				"groups"
+			],
+			[
+				"gr",
+				"groups"
+			],
+			[
+				"p",
+				"params"
+			],
+			[
+				"op",
+				"opt	option(..)"
+			],
+			[
+				"grou",
+				"groups"
+			],
+			[
+				"re",
+				"resources"
+			],
+			[
+				"name",
+				"namespace"
+			],
+			[
+				"x",
+				"xml-	xmlread(..)"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"zip",
+				"zip_code"
+			],
+			[
+				"k",
+				"keywords"
+			],
+			[
+				"sc",
+				"scientists"
+			],
+			[
+				"do",
+				"dob	Insert do |variable| … end"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"page",
+				"page"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"ho",
+				"hover"
+			],
+			[
+				"c",
+				"card-wrapper"
+			],
+			[
+				"e",
+				"endif"
+			],
+			[
+				"Int",
+				"INTEL"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"sa",
+				"scale"
+			],
+			[
+				"CM",
+				"CMDPRE"
+			],
+			[
+				"s",
+				"vec_splats"
+			],
+			[
+				"t",
+				"tmp1"
+			],
+			[
+				"st",
+				"vec_st"
+			],
+			[
+				"N",
+				"NRMACROB"
+			],
+			[
+				"ve",
+				"vec_lda"
+			],
+			[
+				"ld",
+				"vec_lda"
+			],
+			[
+				"vec_m",
+				"vec_madd"
+			],
+			[
+				"l",
+				"vec_lda"
+			],
+			[
+				"di",
+				"DIVMACROB"
+			],
+			[
+				"tm",
+				"tmp3"
+			],
+			[
+				"ex",
+				"EXPi_smp"
+			],
+			[
+				"vec",
+				"vec_ld"
+			],
+			[
+				"m",
+				"vec_mul"
+			],
+			[
+				"div",
+				"DIVMACROB"
+			],
+			[
+				"sp",
+				"vec_splats"
+			],
+			[
+				"tmp",
+				"tmp1"
+			],
+			[
+				"en",
+				"endif"
+			],
+			[
+				"In",
+				"INTEL"
+			],
+			[
+				"I",
+				"INTEL"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"ro",
+				"route"
+			],
+			[
+				"rou",
+				"routeDir"
+			],
+			[
+				"G",
+				"Group"
+			],
+			[
+				"P",
+				"Physics"
+			],
+			[
+				"Ph",
+				"PhD"
+			],
+			[
+				"mai",
+				"mainAr"
+			],
+			[
+				"pa",
+				"page"
+			],
+			[
+				"url",
+				"urlPageStartIndx"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"r",
+				"route"
+			],
+			[
+				"ic",
+				"iconClicked"
+			],
+			[
+				"ico",
+				"iconTapped"
+			],
+			[
+				"te",
+				"text-indent"
+			],
+			[
+				"core",
+				"core-menu"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"la",
+				"label"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"cor",
+				"core-item"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"v",
+				"vTriad"
+			],
+			[
+				"k2",
+				"k256d"
+			],
+			[
+				"EXP",
+				"EXPMACRO"
+			],
+			[
+				"E",
+				"EXPC"
+			],
+			[
+				"tw",
+				"twok"
+			],
+			[
+				"C",
+				"C_c"
+			],
+			[
+				"LIK",
+				"LIKEXT"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"ke",
+				"KERNEL"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"ar",
+				"argv"
+			],
+			[
+				"a",
+				"asm"
+			],
+			[
+				"as",
+				"ASSFLAGS"
+			],
+			[
+				"clea",
+				"cleanall"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"Na",
+				"NA_STA"
+			],
+			[
+				"Ke",
+				"Kernel"
+			],
+			[
+				"Ker",
+				"KERNEL"
+			],
+			[
+				"tim",
+				"timing"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"KER",
+				"KERNEL"
+			],
+			[
+				"IACA",
+				"IACAL"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"PVA",
+				"PVAR_2"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"mi",
+				"mid-col-top"
+			],
+			[
+				"h",
+				"h4	Tag"
+			],
+			[
+				"u",
+				"upper-header"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"le",
+				"left-col"
+			],
+			[
+				"siz",
+				"font-size"
+			],
+			[
+				"list-s",
+				"list-style-position"
+			],
+			[
+				"my",
+				"my-dropdown"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"table-r",
+				"table-row"
+			],
+			[
+				"tab",
+				"table-row"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"ta",
+				"table-row"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"table",
+				"table-header-group"
+			],
+			[
+				"table-c",
+				"table-column"
+			],
+			[
+				"ri",
+				"margin-right"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"inline",
+				"inline-table"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"mag",
+				"margin-top"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"ff",
+				"FFF"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-variant"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"top",
+				"padding-top"
+			],
+			[
+				"b",
+				"inline-block"
+			],
+			[
+				"left",
+				"padding-left"
+			],
+			[
+				"righ",
+				"padding-right"
+			],
+			[
+				"border-b",
+				"border-bottom-color"
+			],
+			[
+				"bordert",
+				"border-top-color"
+			],
+			[
+				"borderc",
+				"border-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6029,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/groups.json",
+			"settings":
+			{
+				"buffer_size": 2208,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "elements.html",
+			"settings":
+			{
+				"buffer_size": 2710,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "elements/group-handler.html",
+			"settings":
+			{
+				"buffer_size": 5786,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "elements/menu-post-handler.html",
+			"settings":
+			{
+				"buffer_size": 2064,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/app.css",
+			"settings":
+			{
+				"buffer_size": 1081,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/app.js",
+			"settings":
+			{
+				"buffer_size": 5013,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 2009,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/views/groups/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 11,
+				"line_ending": "Unix",
+				"name": "index.html.erb"
+			}
+		},
+		{
+			"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/serializers/group_serializer.rb",
+			"settings":
+			{
+				"buffer_size": 269,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/serializers/group_detail_serializer.rb",
+			"settings":
+			{
+				"buffer_size": 256,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/controllers/api/groups_controller.rb",
+			"settings":
+			{
+				"buffer_size": 737,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/test/integration/listing-groups.rb",
+			"settings":
+			{
+				"buffer_size": 243,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/controllers/application_controller.rb",
+			"settings":
+			{
+				"buffer_size": 382,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/controllers/testings_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1870,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/models/group.rb",
+			"settings":
+			{
+				"buffer_size": 344,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Emmet",
+				"Toggle Comment"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/sam/Library/Caches/Coda 2/F36501D8-D88D-4B7F-A40C-317157B34696/sy_cur.c",
+		"/Users/sam/Library/Caches/Coda 2/134C7FFE-650F-4EBD-AB79-8486B9D8AA2E/Makefile",
+		"/Users/sam/Library/Caches/Coda 2/2C90B7F0-27E2-4076-8BC9-A43C2DF4035F/na_sta_alt.c",
+		"/Users/sam/Library/Caches/Coda 2/BDFD2410-5F4B-4A97-9934-C3D87898D89A/na_sta.c",
+		"/Users/sam/Documents/projects/master-theses/code/bgq-code/neuron/Makefile",
+		"/Users/sam/Library/Caches/Coda 2/28145AE2-050D-42B7-B244-D8CB8EE78B11/kernels.h",
+		"/Users/sam/Documents/projects/web-projects/meteor-simple-todos/public/hi.html",
+		"/Users/sam/Documents/projects/web-projects/meteor-simple-todos/client/meteor-simple-todos.js",
+		"/Users/sam/Documents/projects/web-projects/meteor-simple-todos/client/meteor-simple-todos.html",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/Gemfile",
+		"/Users/sam/Library/Caches/Coda 2/85A42189-54D1-4343-A180-3C37830AAB33/na-cur-alt.sh",
+		"/Users/sam/Documents/projects/master-theses/scripts-res/scale.txt",
+		"/Users/sam/Documents/projects/master-theses/scripts-res/state-snb-scale.agr",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/config/initializers/inflections.rb",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/controllers/groups_controller.rb",
+		"/Users/sam/Library/Caches/Coda 2/6960BD84-4A9B-4F8C-8046-ECF8EBCDAADA/ph.sh",
+		"/Users/sam/Documents/projects/master-theses/scripts-res/curr-snb-scale.agr",
+		"/Users/sam/Documents/projects/master-theses/thesis/figures/grace/bgq-div-effect.agr",
+		"/Users/sam/Library/Caches/Coda 2/842DE178-09F7-42AE-AA2F-C27F1BEFC2F7/bgq.sh",
+		"/Users/sam/Documents/projects/master-theses/scripts-res/9 div--",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/lib/tasks/populate.rake",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/db/migrate/20150314173430_create_keyword_assignments.rb",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/models/keyword_assignment.rb",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/db/migrate/20150314173139_create_keywords.rb",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/models/keyword.rb",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/db/migrate/20150313205654_create_events.rb",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/models/event.rb",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/db/migrate/20150313202954_create_scientists.rb",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/models/scientist.rb",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/db/migrate/20150313205914_create_positions.rb",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/models/position.rb",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/db/migrate/20150313200824_create_groups.rb",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/models/group.rb",
+		"/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/db/schema.rb",
+		"/Users/sam/Library/Caches/Coda 2/00E59F69-0B53-4A27-930D-BB08AAA6B54E/na_sta.c",
+		"/Users/sam/Library/Caches/Coda 2/B8918FF7-D842-4735-A520-4AC761090CD1/Makefile",
+		"/Users/sam/Library/Caches/Coda 2/69BCB55F-8D35-4F0F-93CB-16D5101ECD31/bgq.sh",
+		"/Users/sam/Library/Caches/Coda 2/6B936789-E960-422D-8E8B-BDC30B930FDD/main.c",
+		"/Users/sam/Documents/projects/master-theses/scripts-res/sii-freq1.2.txt",
+		"/Users/sam/Documents/projects/master-theses/scripts-res/sii-freq2.2.txt",
+		"/Users/sam/Documents/projects/master-theses/scripts-res/sii-freqturbo.txt",
+		"/Users/sam/Documents/projects/web-projects/meteor-simple-todos/meteor-simple-todos.js",
+		"/Users/sam/Documents/projects/web-projects/meteor-simple-todos/meteor-simple-todos.html",
+		"/Users/sam/Documents/projects/web-projects/meteor-simple-todos/public/bower_components/core-component-page/demo.html",
+		"/Users/sam/Documents/projects/web-projects/meteor-simple-todos/public/bower_components/core-component-page/index.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/bower_components/paper-icon-button/demo.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/menu-post-handler.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/app/app.js",
+		"/Users/sam/Library/Caches/Coda 2/F7F61336-26C5-4129-8753-CE96938FEC4B/util.h",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/open-position-handler.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/scientist-handler.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/upcoming-event-handler.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/post-handler.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/other-post-handler.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/ajax-service.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/group.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/search-box.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/right-sidebar.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/posts-service.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/filter-box.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/core-logo.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/forsker-filter-box.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/forsker-right-sidebar.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/forsker-post-handler.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/app/app.css",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/forsker-core-logo.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/forsker-search-box.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/elements/my-element.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/data/scientists.json",
+		"/Users/sam/Documents/projects/web-projects/test-proj/contacts-app/data/contacts.json",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/data/upcoming-events.json",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/data/groups.json",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/data/open-positions.json",
+		"/Users/sam/Documents/projects/web-projects/test-proj/polymer-tutorial-master/post-service/post-service.html",
+		"/Users/sam/Documents/projects/web-projects/fosker/forsker-frontend/index.html",
+		"/Users/sam/Documents/projects/web-projects/silver-stripe-proj/example1/mysite/_config/config.yml",
+		"/Users/sam/Documents/projects/web-projects/silver-stripe-proj/example1/themes/my-theme/templates/Page.ss",
+		"/Users/sam/Library/Caches/Coda 2/75E31282-AD04-433D-B9B6-B1B5DE75E5D0/sii-freqturbo.txt",
+		"/Users/sam/Library/Caches/Coda 2/82A10AF1-1F9B-4860-8F69-8FABB20A4038/sii-freq2.2.txt",
+		"/Users/sam/Library/Caches/Coda 2/B44A1EBD-992B-48F4-BA64-A973FDEFBD07/sii-freq1.2.txt",
+		"/Users/sam/Library/Caches/TemporaryItems/intr-freq1.2.txt",
+		"/Users/sam/Documents/projects/web-projects/silver-stripe-proj/_ss_enviroment.php",
+		"/Users/sam/Library/Caches/Coda 2/730E3730-0F82-4E00-B6CE-8FC1AF722A30/ph.sh",
+		"/Users/sam/Library/Caches/Coda 2/41993E0F-B827-48F4-A578-E14BA0B57CB7/na-cur-alt.sh",
+		"/Users/sam/Library/Caches/Coda 2/BF2B3C68-D5F4-429A-9396-CF82633D419F/Makefile",
+		"/Users/sam/Documents/projects/master-theses/scripts-res/likwid-pin -c S0:0-15 .:disOMPenMath 140 1000000 1",
+		"/Users/sam/Library/Caches/Coda 2/AFB913BB-7C68-4E30-82CC-963725898CBA/C-freq1.2.txt",
+		"/Users/sam/Library/Caches/Coda 2/FBBDF3CF-1904-4E1D-BB11-062230440910/intr-freq1.2.txt",
+		"/Users/sam/Library/Caches/Coda 2/6EEC9718-DB3F-4417-B590-3F66EA56447D/freq1.2.txt",
+		"/Users/sam/Library/Caches/Coda 2/8833A1F6-1B76-4CAD-A204-BF7459AD8E4E/na_cur_alt_smp.c",
+		"/Users/sam/Library/Caches/Coda 2/426CE6C6-EA9D-4C8C-B319-13D1E0AFC092/na_cur_alt.c",
+		"/Users/sam/Library/Caches/Coda 2/CD4CB22F-EA17-4995-A0A8-CC7165EF71D7/na_cur_fnl.c",
+		"/Users/sam/Library/Caches/Coda 2/9A57FEEB-D3BF-42A9-AEC6-49FF80AA67CF/na_cur_smp.c",
+		"/Users/sam/Library/Caches/Coda 2/88659A18-31B2-47B6-B94B-BD96F5710B9D/na_cur.c",
+		"/Users/sam/Library/Caches/Coda 2/D73CED00-9D0A-49AA-9DF2-C6FA7DBDDBE5/na_sta_alt.c",
+		"/Users/sam/Library/Caches/Coda 2/01BDBA1F-7E0D-4C7E-963E-4D942F855987/na_sta.c",
+		"/Users/sam/Library/Caches/Coda 2/D7756C48-1F9B-4423-80CD-B6D100853D9B/sy_cur.c",
+		"/Users/sam/Library/Caches/Coda 2/996D1FBC-4D14-4618-8B5E-CAEDD322CCB2/na_sta_alt.c",
+		"/Users/sam/Library/Caches/Coda 2/35791253-73E6-4BF5-A4A7-11C40FB689DD/util.c",
+		"/Users/sam/Documents/projects/web-projects/ecommerceconnector/src/MageReqHandlerBundle/Controller/ProductController.php",
+		"/Users/sam/Documents/projects/master-theses/scripts-res/ref-stat-arr",
+		"/Users/sam/Documents/projects/master-theses/scripts-res/cache-sta.txt",
+		"/Users/sam/Library/Caches/Coda 2/10007563-C67C-4B60-BCBD-66BF87A1EF2C/main.c",
+		"/Users/sam/Library/Caches/Coda 2/735C1FD2-CCC9-4F7C-910D-D1B6CF55A4DC/util.h",
+		"/Users/sam/Library/Caches/Coda 2/DC88B63E-66CF-4A5C-9C76-52588AAECCF8/na_sta.c",
+		"/Users/sam/Library/Caches/Coda 2/B0322566-E99C-445E-A707-B213B81A1BDA/bgq.sh",
+		"/Users/sam/Library/Caches/Coda 2/1EC5BE5C-B296-484F-B7AD-F72977B8D5F4/Makefile",
+		"/Users/sam/Library/Caches/Coda 2/E8CF8B28-CBCB-413A-BF46-BD790100DD57/ph.sh",
+		"/Users/sam/Library/Caches/Coda 2/734965D4-9212-4FF9-86C1-80381A6FB5FB/na_cur_fnl.c",
+		"/Users/sam/Documents/projects/master-theses/scripts-res/stream.txt",
+		"/Users/sam/Documents/projects/master-theses/thesis/figures/grace/stream-phinally-nt.agr",
+		"/Users/sam/Documents/projects/master-theses/thesis/figures/grace/stream-phinally-without-nt.agr",
+		"/Users/sam/Documents/projects/master-theses/thesis/figures/grace/cyme-state-scale-ph-vs-roundr.agr",
+		"/Users/sam/Library/Caches/TemporaryItems/bgq.sh",
+		"/Users/sam/Library/Caches/Coda 2/684908BF-8916-49A8-8C3A-24E9983C641F/na_sta_alt.c",
+		"/Users/sam/Library/Caches/Coda 2/0C681167-263D-4C5E-89B8-33A4707568A9/na_sta.c",
+		"/Users/sam/Library/Caches/Coda 2/06B4F6E5-2517-48D7-8497-D4F490FE736B/Makefile",
+		"/Users/sam/Documents/projects/master-theses/scripts-res/cache-cur.txt",
+		"/Users/sam/Documents/projects/master-theses/thesis/figures/grace/curr-snb-scale.agr",
+		"/Users/sam/Documents/projects/master-theses/thesis/figures/grace/state-snb-scale.agr",
+		"/Users/sam/Library/Caches/Coda 2/2A16BEA1-40C7-4100-B2BB-6C5A11C65006/sy_cur.c",
+		"/Users/sam/Library/Caches/Coda 2/BCA39432-E564-43D6-B227-F09287CC79C1/Makefile",
+		"/Users/sam/Library/Caches/Coda 2/BE5778D5-DB37-4DAE-86EC-A3DB99B229A9/util.h",
+		"/Users/sam/Library/Caches/Coda 2/8AE69D78-47F9-4017-A7FD-BCA538A84D76/util.c",
+		"/Users/sam/Library/Caches/Coda 2/656E96DB-C1E5-48AA-82A7-DF4CAA37C62D/timing.h",
+		"/Users/sam/Library/Caches/Coda 2/C79F026B-F8A2-48A6-B1C2-5E8A4C78D47A/timing.c",
+		"/Users/sam/Library/Caches/Coda 2/66274060-925C-49C3-9148-7AE01D6B70C7/sy_cur.c"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"s1",
+			"create_respond",
+			"perfctr",
+			"perf",
+			"doct",
+			"doc",
+			"forsker-",
+			"bg",
+			"tmp3",
+			"tmp2",
+			"tmp1",
+			"tmp0",
+			"tmp2",
+			"tmp1",
+			"tmp0",
+			"j",
+			"8",
+			"rcp",
+			"template",
+			"'';",
+			"button",
+			"vrcpps",
+			"floor(1.4426950408889634 * x)",
+			"expi",
+			"133",
+			"B1.50",
+			"B1.13",
+			"B1.12",
+			"B1.8",
+			"34",
+			"B1.44",
+			"B1.44 ",
+			"28",
+			"116",
+			"double * restrict ",
+			"if",
+			"jb",
+			"B1.1",
+			"B1",
+			"NARR",
+			"NITER",
+			"NSIZE",
+			"mul",
+			"time_status",
+			"j",
+			"file",
+			"menu",
+			"widget-t",
+			"wp_enqueu",
+			"kyo-st",
+			"logo1",
+			"Brand2",
+			"wp-content/uploads/2014/07/",
+			"http://localhost:8888/",
+			"http://localhost:8888/wp-content/uploads/2014/07/",
+			"not",
+			"t is",
+			"’",
+			"'",
+			"venture",
+			"company",
+			"venture",
+			"internet",
+			"inter",
+			"gal",
+			"home",
+			"inl",
+			"style",
+			"med",
+			"right",
+			"br",
+			"navbar-",
+			"navbar-na",
+			"center",
+			"fixed",
+			"nav",
+			"</!-->",
+			"<!-->",
+			"container ",
+			"\"\">",
+			"30px",
+			"cas",
+			"090"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_mm256_load_pd(&tmp12)",
+			"_mm256_load_pd(&tmp1)",
+			"_mm256_load_pd(&tmp0)",
+			"_mm256_load_pd(&tmp2)",
+			"_mm256_load_pd(&tmp1)",
+			"_mm256_load_pd(&tmp0)",
+			"((double)((int)(1.4426950408889634 * x)))",
+			"double(int(1.4426950408889634 * x))",
+			"176",
+			"",
+			"eNarr",
+			"eIter",
+			"eSize",
+			"Brand",
+			"",
+			"kyokay_files/",
+			"/static/files/",
+			"t's",
+			"company",
+			"Internet",
+			"-->",
+			"<!--",
+			"",
+			"009"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 12,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 6029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3025,
+								2981
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 18.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "data/groups.json",
+					"settings":
+					{
+						"buffer_size": 2208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "elements.html",
+					"settings":
+					{
+						"buffer_size": 2710,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1859,
+								1859
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "elements/group-handler.html",
+					"settings":
+					{
+						"buffer_size": 5786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "elements/menu-post-handler.html",
+					"settings":
+					{
+						"buffer_size": 2064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								772,
+								775
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 419.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/app.css",
+					"settings":
+					{
+						"buffer_size": 1081,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/app.js",
+					"settings":
+					{
+						"buffer_size": 5013,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								783,
+								787
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 2009,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/views/groups/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 11,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"auto_name": "index.html.erb",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/serializers/group_serializer.rb",
+					"settings":
+					{
+						"buffer_size": 269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/serializers/group_detail_serializer.rb",
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/controllers/api/groups_controller.rb",
+					"settings":
+					{
+						"buffer_size": 737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								327,
+								327
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/test/integration/listing-groups.rb",
+					"settings":
+					{
+						"buffer_size": 243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/controllers/application_controller.rb",
+					"settings":
+					{
+						"buffer_size": 382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								361,
+								361
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/controllers/testings_controller.rb",
+					"settings":
+					{
+						"buffer_size": 1870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								51
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 346.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/Users/sam/Documents/projects/web-projects/rails-projects/Forsker/app/models/group.rb",
+					"settings":
+					{
+						"buffer_size": 344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"routes",
+				"Forsker/config/routes.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 379.0,
+	"status_bar_visible": true
+}

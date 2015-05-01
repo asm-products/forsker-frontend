@@ -1,0 +1,161 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+
+<polymer-element name="group-handler" attributes="post">
+<template>
+  <style>
+  .card-wrapper {
+    padding: 0px;
+    margin: 20px 0px 20px;
+    
+  }
+  .card-wrapper-border{
+    border: 2px solid #CCC;
+  }
+  .card-wrapper-bg-color{
+    background-color: #FFF;
+  }
+  .card-primary-font-color{
+    color:#526E9C;
+  }
+  .card-secondary-font-color{
+    color: #777;
+  }
+  .card-image-bg-color{
+    background-color: #eee;
+  }
+  .card-wrapper:hover {
+    /*background-color: #eee;*/
+  }
+  .card-wrapper-text-margin{
+    margin:10px 8px 5px 5px;
+  }
+  .core-icon-fix{
+    margin:5px 5px 8px 5px;
+  }
+  .entry-fix{
+
+  }
+  .card-wrapper-entry{
+    border-top-color: #999;
+    border-top-width: thin;
+    border-top-style: dashed;
+    padding:0px 5px;
+  }
+
+  .entry-wrapper.group-title {
+    font-weight: 600;
+    font-size: 15px;
+    color: #526E9C;
+    padding-right: 8px;
+  }
+  .entry-wrapper {
+    padding: 1px;
+    margin: 0px;
+  }
+  .entry-wrapper.group-uni {
+  } 
+  .paper-icon-button{
+    color: #333;
+  }
+  </style>
+
+  <paper-shadow z="2" class="card-wrapper card-wrapper-bg-color card-wrapper-border">
+    <core-label  for=".foo">
+      <div class="card-primary-font-color" horizontal justified layout>
+        <div class="card-wrapper-text-margin">About</div>
+        <core-icon icon="home" class="core-icon-fix"></core-icon>
+      </div>
+      <div layout vertical style="min-height: 200px;" >
+        <core-image class="card-image-bg-color" style=" height:200px; " 
+              sizing="contain" preload src="../data/images/300x200.gif"></core-image>
+        <div class="card-wrapper-text-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        </div>
+        <div class="card-wrapper-text-margin"> 
+          <span class="card-secondary-font-color">Research Areas: </span> 
+          <span>one - two - three - four - five</span> 
+        </div>
+        <div class="card-wrapper-text-margin"> 
+          <span class="card-secondary-font-color">University: </span> 
+          <span>XYZ</span> 
+        </div> 
+        <div class="card-wrapper-text-margin"> 
+          <span class="card-secondary-font-color">Website: </span> 
+          <span>XYZ</span> 
+        </div>                
+        <div class="card-wrapper-text-margin"> 
+          <span class="card-secondary-font-color">Address: </span> 
+          <span>XYZ</span> 
+        </div>
+        <div class="card-wrapper-text-margin"> 
+          <span class="card-secondary-font-color">Telephon(s): </span> 
+          <span>XYZ</span> 
+        </div>
+        <div class="card-wrapper-text-margin"> 
+          <span class="card-secondary-font-color">Fax: </span> 
+          <span>XYZ</span> 
+        </div>
+        <div class="card-wrapper-text-margin"> 
+          <span class="card-secondary-font-color">E-mail: </span> 
+          <span>XYZ</span> 
+        </div>                        
+      </div>
+    </core-label>
+  </paper-shadow >   
+  
+  <paper-shadow z="2" class="card-wrapper card-wrapper-bg-color card-wrapper-border">
+    <core-label  for=".foo">
+      <div class="card-primary-font-color" horizontal justified layout>
+        <div class="card-wrapper-text-margin">Group Members</div>
+        <core-icon icon="social:school" class="core-icon-fix"></core-icon>
+      </div>
+      <div layout vertical style="min-height: 200px;" >
+        <core-image class="card-image-bg-color" style=" height:200px; " 
+              sizing="contain" preload src="../data/images/200x200.gif"></core-image>
+        <div class="card-wrapper-text-margin">My Name</div>
+        <div class="card-wrapper-text-margin card-secondary-font-color">My Position</div>
+        <div class="card-wrapper-text-margin">Links here</div>
+      </div>
+    </core-label>
+  </paper-shadow >   
+
+  <paper-shadow z="2" class="card-wrapper card-wrapper-bg-color card-wrapper-border">
+    <core-label  for=".foo">
+      <div class="card-primary-font-color" horizontal justified layout>
+        <div class="card-wrapper-text-margin">Open Positions</div>
+        <core-icon icon="work" class="core-icon-fix"></core-icon>
+      </div>
+      <div layout  vertical >
+        <core-label layout horizontal center class="card-image-bg-color card-wrapper-entry" for=".positbut">
+          <div flex>Postion 1 Name</div>
+          <a href="#" class="card-primary-font-color">
+            <paper-icon-button icon="arrow-forward" class="positbut"></paper-icon-button>
+          </a>
+        </core-label>
+      </div>
+    </core-label>
+  </paper-shadow >  
+
+  <paper-shadow z="2" class="card-wrapper card-wrapper-bg-color card-wrapper-border">
+    <core-label  for=".foo">
+      <div class="card-primary-font-color" horizontal justified layout>
+        <div class="card-wrapper-text-margin">Upcoming Events</div>
+        <core-icon icon="event" class="core-icon-fix"></core-icon>
+      </div>
+      <div layout  vertical >
+        <core-label layout horizontal center class="card-image-bg-color card-wrapper-entry" for=".eventtbut">
+          <div flex>Event 1 Name</div>
+          <a href="#" class="card-primary-font-color">
+            <paper-icon-button icon="arrow-forward" class="eventtbut"></paper-icon-button>
+          </a>
+        </core-label>
+      </div>
+    </core-label>
+  </paper-shadow >  
+
+    </template>
+    <script>
+    Polymer({
+    });
+    </script>
+  </polymer-element>

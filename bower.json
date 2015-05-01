@@ -1,0 +1,39 @@
+{
+  "name": "forsker",
+  "version": "0.0.0",
+  "authors": [
+    "Salah Saleh <salah_saleh_ali@gmail.com>"
+  ],
+  "description": "forsker reference information",
+  "main": "index.html",
+  "keywords": [
+    "forsker"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.2",
+    "paper-input": "Polymer/paper-input#~0.5.2",
+    "paper-dropdown-menu": "Polymer/paper-dropdown-menu#~0.5.2",
+    "paper-dropdown": "Polymer/paper-dropdown#~0.5.2",
+    "core-animated-pages": "Polymer/core-animated-pages#~0.5.2",
+    "core-transition": "Polymer/core-transition#~0.5.2",
+    "core-ajax": "Polymer/core-ajax#~0.5.4",
+    "paper-toggle-button": "Polymer/paper-toggle-button#~0.5.5",
+    "core-label": "Polymer/core-label#~0.5.5",
+    "paper-shadow": "Polymer/paper-shadow#~0.5.5",
+    "core-image": "Polymer/core-image#~0.5.5"
+  },
+  "resolutions": {
+    "web-animations-js": "1.0.1",
+    "polymer": "^0.5.0",
+    "platform": "^0.4.0",
+    "core-component-page": "^0.5.0"
+  }
+}

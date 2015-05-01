@@ -1,0 +1,37 @@
+[
+  {
+    "name": "PhD in Computational Biology",
+    "group":"Biology Group",
+    "university": "EPFL",
+    "keywords": ["computer graphics"],
+    "url": "#"
+  },
+  {
+    "name": "PhD in Computational Mechanics",
+    "group":"Mechanics Group",
+    "university": "ETH",
+    "keywords": ["ETH", "Computational Mechanics"],
+    "url": "#"
+  },
+  {
+    "name": "PhD in Computational Chemistry",
+    "group":"Chemistry Group",
+    "university": "MIT",
+    "keywords": ["computer vision", "computer graphics"],
+    "url": "#"
+  },
+  {
+    "name": "PhD in Computational Neuroscience",
+    "group":"Neuroscience Group",
+    "university": "Stanford",
+    "keywords": ["Physics", "PhD"],
+    "url": "#"
+  },
+  {
+    "name": "PhD in Computational Physics",
+    "group":"Physics Group",
+    "university": "FAU",
+    "keywords": ["FAU", "Germany", "PhD"],
+    "url": "#"
+  }
+]

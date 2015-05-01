@@ -1,0 +1,107 @@
+[
+  {
+    "id":"1",
+    "name": "Comouter Graphics Group",
+    "university": "Stanford",
+    "keywords": ["computer graphics"],
+    "url": "#group/1"
+  },
+  {
+    "id":"2",
+    "name": "Comouter Vision Group",
+    "university": "EPFL",
+    "keywords": ["EPFL", "Computational Mechanics"],
+    "url": "#"
+  },
+  {
+    "id":"3",
+    "name": "Comouter Vision Group",
+    "university": "MIT",
+    "keywords": ["computer vision", "computer graphics"],
+    "url": "#b"
+  },
+  {
+    "id":"4",
+    "name": "Comouter Vision Group",
+    "university": "FAU",
+    "keywords": ["FAU", "Vision"],
+    "url": "#"
+  },
+  {
+    "id":"5",
+    "name": "Comouter Vision Group",
+    "university": "ETH",
+    "keywords": ["Physics", "ETH"],
+    "url": "#"
+  },
+  {
+    "id":"6",
+    "name": "Comouter Graphics Group",
+    "university": "Stanford",
+    "keywords": ["computer graphics"],
+    "url": "#a"
+  },
+  {
+    "id":"7",
+    "name": "Comouter Vision Group",
+    "university": "EPFL",
+    "keywords": ["EPFL", "Computational Mechanics"],
+    "url": "#"
+  },
+  {
+    "id":"8",
+    "name": "Comouter Vision Group",
+    "university": "MIT",
+    "keywords": ["computer vision", "computer graphics"],
+    "url": "#"
+  },
+  {
+    "id":"9",
+    "name": "Comouter Vision Group",
+    "university": "FAU",
+    "keywords": ["FAU", "Vision"],
+    "url": "#"
+  },
+  {
+    "id":"10",
+    "name": "Comouter Vision Group",
+    "university": "ETH",
+    "keywords": ["Physics", "ETH"],
+    "url": "#"
+  },
+    {
+    "id":"11",
+    "name": "Comouter Graphics Group",
+    "university": "Stanford",
+    "keywords": ["computer graphics"],
+    "url": "#a"
+  },
+  {
+    "id":"12",
+    "name": "Comouter Vision Group",
+    "university": "EPFL",
+    "keywords": ["EPFL", "Computational Mechanics"],
+    "url": "#"
+  },
+  {
+    "id":"13",
+    "name": "Comouter Vision Group",
+    "university": "MIT",
+    "keywords": ["computer vision", "computer graphics"],
+    "url": "#"
+  },
+  {
+    "id":"14",
+    "name": "Comouter Vision Group",
+    "university": "FAU",
+    "keywords": ["FAU", "Vision"],
+    "url": "#"
+  },
+  {
+    "id":"15",
+    "name": "Comouter Vision Group",
+    "university": "ETH",
+    "keywords": ["Physics", "ETH"],
+    "url": "#"
+  }
+]

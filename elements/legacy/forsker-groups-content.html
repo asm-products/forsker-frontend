@@ -1,0 +1,31 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="forsker-group-entry-wrapper.html">
+<link rel="import" href="forsker-groups-search.html">
+
+
+<polymer-element name="forsker-groups-content">
+  <template>
+    <style>		
+    	.content{
+			padding: 20px;
+		}
+		.content-wrapper{
+		  background:#ccc;
+		  padding:2px
+		}  
+    </style>
+
+  <div class="content">
+    <forsker-groups-search class=""></forsker-groups-search>
+    <div class="content-wrapper">
+      <forsker-group-entry-wrapper class=""></forsker-group-entry-wrapper>
+      <forsker-group-entry-wrapper class=""></forsker-group-entry-wrapper>
+      <forsker-group-entry-wrapper class=""></forsker-group-entry-wrapper>
+    </div>  
+  </div>
+
+  </template>
+  <script>
+  Polymer({});
+  </script>
+</polymer-element>

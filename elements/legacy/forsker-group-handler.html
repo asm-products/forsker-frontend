@@ -1,0 +1,66 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="forsker-group-handler" attributes="post">
+  <template>
+    <style>		
+		.card-wrapper {
+		border: 1px solid #CCC;
+		background-color: #CCC;
+		padding: 0px;
+		margin: 0px 0px 2px;
+		}
+		.entry-text-wrapper {
+		    background-color: #FFF;
+		}
+		.entry-wrapper.group-title {
+		    font-weight: 600;
+		    font-size: 15px;
+		    color: #526E9C;
+		    padding-right: 8px;
+		}
+		.entry-wrapper {
+		    background-color: #FFF;
+		    padding: 1px;
+		    margin: 0px;
+		}
+		.entry-wrapper.group-uni {
+		    color: #777;
+		} 
+		.paper-icon-button-bg{
+			background: #fff;
+		}
+    </style>
+
+	<div horizontal="" layout="" class="card-wrapper">
+        <div class="entry-text-wrapper" vertical="" layout="" flex="">
+          <div class="" horizontal="" layout="">
+            <div class="entry-wrapper group-title">{{post.name}}</div>
+            <div class="entry-wrapper group-uni" flex="">{{post.uni}}</div>
+          </div>
+          <div class="" horizontal="" layout="">
+            <div class="entry-wrapper group-research">Research Keywords: </div>
+            <div class="entry-wrapper group-keywords" flex="">{{post.keywords}}</div>
+          </div>
+        </div>
+        <a href="#"  class="paper-icon-button-bg" vertical center-justified layout>
+          <paper-icon-button icon="arrow-forward"></paper-icon-button>
+      	</a>
+	</div>
+
+  </template>
+  <script>
+      Polymer('forsker-group-handler', {
+      ready: function() { }
+    });
+  </script>
+</polymer-element>
+
+
+
+
+
+
+    
+
+
+

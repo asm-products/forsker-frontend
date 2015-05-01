@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>forsker</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="apple-mobile-web-app-cabaple" content="yes">
+  <meta name="mobile-web-app-cabaple" content="yes">
+  <!-- Latest compiled and minified CSS -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+  <link rel='stylesheet' href="app/app.css">
+  <!-- <link rel='stylesheet' href="app/site2.css"> -->
+  <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
+  <link href="//fonts.googleapis.com/css?family=RobotoDraft:300,400,500|Source+Code+Pro:400,500,700" rel="stylesheet">
+  
+  <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+  <link rel='import' href="elements.html">
+
+</head>
+
+<body fullbleed layout vertical unresolved>
+  <core-drawer-panel id="drawerPanel">
+    <!-- left drawer: logo+menu -->
+    <core-header-panel drawer mode="seamed">
+      <forsker-left-drawer class=""></forsker-left-drawer>
+    </core-header-panel>
+
+    <!-- right drawer:content -->
+    <core-header-panel main  mode="waterfall">
+      <!-- right drawer: toolbar -->
+      <core-toolbar id="core-toolbar-title">
+        <paper-icon-button icon="menu"  core-drawer-toggle></paper-icon-button>
+        <div class="middle indent title" style="">Groups</div>
+        <span flex></span>
+        <paper-icon-button icon="more-vert"></baber-icon-button>
+      </core-toolbar>
+      <!-- page main contents -->
+      <forsker-groups-content class=""></forsker-groups-content>
+    </core-header-panel>
+  </core-drawer-panel> 
+</body>
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script> -->
+<script src="app/app.js"></script>
+
+
+</html>

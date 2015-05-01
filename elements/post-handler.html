@@ -1,0 +1,24 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+
+<polymer-element name="post-handler" attributes="post pagetype isMenuItem">
+<template>
+  <style>
+  </style>
+
+  <!-- menu pages handler -->
+  <template if="{{isMenuItem===true}}">
+    <menu-post-handler post="{{post}}" pagetype="{{pagetype}}" ></menu-post-handler>
+  </template>
+  <!-- other pages handler -->
+  <template if="{{isMenuItem===false}}">
+    <other-post-handler post="{{post}}" pagetype="{{pagetype}}" ></menu-post-handler>
+  </template>
+
+
+    </template>
+    <script>
+    Polymer({
+    });
+    </script>
+  </polymer-element>

@@ -1,0 +1,21 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="right-sidebar" >
+<template>
+  <style>
+	@media screen and (max-width: 650px) {
+	    .rightSideBar {
+	        display: none;
+	    }
+	}
+
+  </style>
+        <paper-shadow z="2" style="width:230px;min-width:230px;margin-left:10px;height:550px" class="rightSideBar">
+          <img src="../data/images/230x550.gif" >
+        </paper-shadow>
+
+    </template>
+    <script>
+    Polymer({});
+    </script> 
+</polymer-element>
