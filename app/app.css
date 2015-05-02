@@ -7,6 +7,16 @@
 core-scaffold::shadow div[drawer]  { background: #F9F9F9; }
 div[drawer]  { background: #F9F9F9; }
 
+core-scaffold::shadow core-toolbar{display: none;}
+
+
+.card-wrapper {
+  border: 2px solid #CCC;
+  border-radius: 8px;
+  background-color: #FFF;
+  padding: 10px;
+  margin: 4px 0px 4px;
+}
 
 core-animated-pages, core-animation{
   /*position: absolute;*/
@@ -33,7 +43,7 @@ a.menu-item{
 
 #mainContent{
   margin: 2%;
-  max-width: 1050px;
+  /*max-width: 1050px;*/
 }
 /*.color-fix{
  background-color: #eee; 
