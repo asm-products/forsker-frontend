@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>forsker</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="apple-mobile-web-app-cabaple" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <!-- <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">   -->
+  <meta name="mobile-web-app-cabaple" content="yes">
+  <!-- <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png"> -->
+  <!-- Add to homescreen for Internet Explorer -->
+  <!-- <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png"> -->
+  <!-- <meta name="msapplication-TileColor" content="#3F51B5"> -->
+  <!-- <meta name="theme-color" content="#303F9F"> -->
+
+  <link href="//fonts.googleapis.com/css?family=RobotoDraft:300,400,500|Source+Code+Pro:400,500,700" rel="stylesheet">
+  <link rel='stylesheet' href="app/app.css">
+  <!-- <link rel='stylesheet' href="app/site2.css"> -->
+  <script>
+    if ('registerElement' in document
+      && 'createShadowRoot' in HTMLElement.prototype
+      && 'import' in document.createElement('link')
+      && 'content' in document.createElement('template')) {
+      // We're using a browser with native WC support!
+    } else {
+      document.write('<script src="bower_components/webcomponentsjs/webcomponents.js"><\/script>');
+    }
+  </script>  
+  <link rel='import' href="elements.html">
+
+</head>
+
+<style>    
+</style>
+
+<!--  -->
+<body  fullbleed unresolved>
+  <template is="auto-binding" id="t" >
+
+    <!-- Route controller. -->
+    <flatiron-director route="/{{route}}" autoHash></flatiron-director>
+<!--     <app-router class="">
+      <app-route path="*" import="http://localhost:8000/projects/web-projects/fosker/forsker-frontend/index.html"></app-route>
+    </app-router> -->
+    <!-- <app-route path="#{{route}}s" import=""></app-route> -->
+    
+
+    <!-- Keyboard nav controller. -->
+    <core-a11y-keys id="keys" target="{{parentElement}}"
+                  keys="up down left right space space+shift"
+                  on-keys-pressed="{{keyHandler}}"></core-a11y-keys>
+
+    <!-- wrap the whole app -->
+    <core-scaffold id="scaffold" mode="seamed" responsiveWidth="900px">
+      <!-- wrap the left drawer -->
+      <nav class="left-drawer-color">
+        <!-- the logo toolbar wrapper -->
+        <core-toolbar class="left-drawer-color">
+          <core-logo class=""></core-logo> 
+        </core-toolbar>
+        <!-- the left drawer navigation menu -->
+        <!--   -->
+        <core-menu valueattr="hash" selected="{{route}}" on-core-select="{{menuItemSelected}}" selectedModel="{{selectedPage}}"> 
+          <template repeat="{{page in pages}}">
+            <template if="{{page.isMenuItem===true}}">
+              <paper-item hash="{{page.hash}}" noink>
+                <core-icon icon="{{page.icon}}"></core-icon>
+                <a class="menu-item" href="#{{page.hash}}" on-click="{{navigate}}" >{{page.name}}</a>
+              </paper-item>
+            </template>
+          </template>
+        </core-menu>
+      </nav>
+
+      <!-- the upper right toolbar -->
+      <core-toolbar class="my-dark-primary-color" tool flex>
+        <core-animated-pages valueattr="hash" selected="{{route}}" transitions="cross-frade-all">
+          <template repeat="{{page in pages}}">
+            <template if="{{page.isMenuItem===true}}">
+              <section vertical center-justified layout flex hash="{{page.hash}}"><div>{{page.name}}</div></section>
+            </template>
+            <section vertical center-justified layout flex hash="{{route}}"><div></div></section> <!-- TODO: fix and encapsulate -->
+          </template>
+        </core-animated-pages>
+        <core-icon-button icon="refresh"></core-icon-button>
+        <core-icon-button icon="add"></core-icon-button>
+      </core-toolbar>
+
+      <!-- the main contents wrapper -->
+      <div  horizontal layout fit id="mainContent" style="">
+
+        <!-- main page area -->
+        <div flex style="min-width:320">
+
+          <filter-box></filter-box>
+          <core-animated-pages id="pages" valueattr="hash" selected="{{route}}" transitions="slide-from-right">
+            <!-- the top-level pages of the menu -->
+            <template repeat="{{page in pages}}">
+              <section hash="{{page.hash}}">
+                <template if="{{page.hash === route}}">
+                  <ajax-service url="{{page.hash}}" posts="{{posts}}"></ajax-service>
+                  <template repeat="{{post in posts}}">
+                    <post-handler post="{{post}}" pagetype="{{page.hash}}" isMenuItem="{{page.isMenuItem}}"></posts-handler>
+                  </template>
+                </template>      
+              </section>
+            </template>
+            
+            <!-- the second-level pages -->
+            <span class="{{route | parseURL}}" style="display:none"></span>
+            <section hash="{{route}}" >
+              <template repeat="{{page in l2pages}}">
+                <template if="{{parsedURL[0]===page.hash}}">
+                  <!-- <ajax-service url="{{route}}" posts="{{posts}}"></ajax-service>  -->
+                  <post-handler post="{{post}}" pagetype="{{page.hash}}" isMenuItem="{{page.isMenuItem}}"></posts-handler>
+                </template>
+              </template>
+            </section>          
+          </core-animated-pages>
+        </div>
+
+        <!-- right sidebar-->
+        <right-sidebar></right-sidebar>
+      </div>
+
+    </core-scaffold>
+  </template>
+</body>
+
+  
+<script src="elements/flatiron-director-master/director/director.min.js"></script>
+<script src="app/app.js"></script>
+<script>
+
+PolymerExpressions.prototype.parseURL = function(input) {
+  t.parsedURL = input.split("/");
+  console.log(t.parsedURL[0]);
+  console.log(t.route);
+  t.pagename="ABC"
+};
+  // checkPolymerRegister();
+</script>
+
+</html>
