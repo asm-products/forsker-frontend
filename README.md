@@ -1,4 +1,4 @@
-# forsker
+# forsker ( this is a legacy repo. Please check forsker-meteor)
 
 <a href="https://assembly.com/forsker/bounties?utm_campaign=assemblage&utm_source=forsker&utm_medium=repo_badge"><img src="https://asm-badger.herokuapp.com/forsker/badges/tasks.svg" height="24px" alt="Open Tasks" /></a>
 
